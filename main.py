@@ -5,7 +5,7 @@ from datetime import datetime
 from telegram import Update, ReplyKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, CallbackContext
 import logging
-
+#test
 # Настройка логирования
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
@@ -16,7 +16,7 @@ logger = logging.getLogger(__name__)
 # Конфигурация
 MAX_STEPS = random.randint(7, 10)
 EVENTS_FILE = 'events.json'
-TOKEN = ''  # Замените на ваш реальный токен
+TOKEN = '1781189373:AAEGPKeKuP1jdYROBhDxQ8zHsSEV7ZC8Wao'  # Замените на ваш реальный токен
 
 # Загрузка событий
 with open(EVENTS_FILE, 'r', encoding='utf-8') as f:
